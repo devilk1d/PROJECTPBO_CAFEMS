@@ -27,97 +27,97 @@ public class MainMenu extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        AddProduct = new javax.swing.JButton();
+        ManageP = new javax.swing.JButton();
+        AllP = new javax.swing.JButton();
+        OrderP = new javax.swing.JButton();
+        ViewOrder = new javax.swing.JButton();
+        Stats = new javax.swing.JButton();
+        date = new javax.swing.JLabel();
+        jam = new javax.swing.JLabel();
+        pmam = new javax.swing.JLabel();
+        back = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jButton1.setText("Add Product");
-        jButton1.setToolTipText("");
-        jButton1.setBorder(null);
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        AddProduct.setFont(new java.awt.Font("SF Pro Display", 1, 24)); // NOI18N
+        AddProduct.setText("Add Product");
+        AddProduct.setToolTipText("");
+        AddProduct.setBorder(null);
+        AddProduct.setBorderPainted(false);
+        AddProduct.setContentAreaFilled(false);
+        AddProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                AddProductActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, 300, 70));
+        jPanel1.add(AddProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, 300, 70));
 
-        jButton2.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jButton2.setText("Manage Product");
-        jButton2.setBorder(null);
-        jButton2.setBorderPainted(false);
-        jButton2.setContentAreaFilled(false);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        ManageP.setFont(new java.awt.Font("SF Pro Display", 1, 24)); // NOI18N
+        ManageP.setText("Manage Product");
+        ManageP.setBorder(null);
+        ManageP.setBorderPainted(false);
+        ManageP.setContentAreaFilled(false);
+        ManageP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                ManagePActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 380, 300, 70));
+        jPanel1.add(ManageP, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 380, 300, 70));
 
-        jButton3.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jButton3.setText("All Products");
-        jButton3.setBorder(null);
-        jButton3.setBorderPainted(false);
-        jButton3.setContentAreaFilled(false);
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 493, 310, 70));
+        AllP.setFont(new java.awt.Font("SF Pro Display", 1, 24)); // NOI18N
+        AllP.setText("All Products");
+        AllP.setBorder(null);
+        AllP.setBorderPainted(false);
+        AllP.setContentAreaFilled(false);
+        jPanel1.add(AllP, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 493, 310, 70));
 
-        jButton4.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jButton4.setText("Order");
-        jButton4.setBorder(null);
-        jButton4.setBorderPainted(false);
-        jButton4.setContentAreaFilled(false);
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 260, 290, 80));
+        OrderP.setFont(new java.awt.Font("SF Pro Display", 1, 24)); // NOI18N
+        OrderP.setText("Order");
+        OrderP.setBorder(null);
+        OrderP.setBorderPainted(false);
+        OrderP.setContentAreaFilled(false);
+        jPanel1.add(OrderP, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 260, 290, 90));
 
-        jButton5.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jButton5.setText("View Orders");
-        jButton5.setBorder(null);
-        jButton5.setBorderPainted(false);
-        jButton5.setContentAreaFilled(false);
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 370, 290, 90));
+        ViewOrder.setFont(new java.awt.Font("SF Pro Display", 1, 24)); // NOI18N
+        ViewOrder.setText("View Orders");
+        ViewOrder.setBorder(null);
+        ViewOrder.setBorderPainted(false);
+        ViewOrder.setContentAreaFilled(false);
+        jPanel1.add(ViewOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 370, 290, 90));
 
-        jButton6.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jButton6.setText("Statistics");
-        jButton6.setBorder(null);
-        jButton6.setBorderPainted(false);
-        jButton6.setContentAreaFilled(false);
-        jButton6.setMargin(new java.awt.Insets(3, 14, 3, 14));
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        Stats.setFont(new java.awt.Font("SF Pro Display", 1, 24)); // NOI18N
+        Stats.setText("Statistics");
+        Stats.setBorder(null);
+        Stats.setBorderPainted(false);
+        Stats.setContentAreaFilled(false);
+        Stats.setMargin(new java.awt.Insets(3, 14, 3, 14));
+        Stats.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                StatsActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 490, 290, 80));
+        jPanel1.add(Stats, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, 290, 90));
 
-        jLabel5.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Senin, 10 Juni 2024");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 50, 170, 30));
+        date.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
+        date.setForeground(new java.awt.Color(255, 255, 255));
+        date.setText("Senin, 10 Juni 2024");
+        jPanel1.add(date, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 50, 170, 30));
 
-        jLabel2.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("00 : 00");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 20, 70, 40));
+        jam.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
+        jam.setForeground(new java.awt.Color(255, 255, 255));
+        jam.setText("00 : 00");
+        jPanel1.add(jam, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 20, 70, 40));
 
-        jLabel4.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("PM");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 60, 40));
+        pmam.setFont(new java.awt.Font("SF Pro Display", 1, 18)); // NOI18N
+        pmam.setForeground(new java.awt.Color(255, 255, 255));
+        pmam.setText("PM");
+        jPanel1.add(pmam, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, 60, 40));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/MainMenu.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, -1));
+        back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/MainMenu.png"))); // NOI18N
+        jPanel1.add(back, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -133,17 +133,17 @@ public class MainMenu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void StatsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StatsActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_StatsActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void AddProductActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddProductActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_AddProductActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void ManagePActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManagePActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_ManagePActionPerformed
 
     /**
      * @param args the command line arguments
@@ -181,16 +181,16 @@ public class MainMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JButton AddProduct;
+    private javax.swing.JButton AllP;
+    private javax.swing.JButton ManageP;
+    private javax.swing.JButton OrderP;
+    private javax.swing.JButton Stats;
+    private javax.swing.JButton ViewOrder;
+    private javax.swing.JLabel back;
+    private javax.swing.JLabel date;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel jam;
+    private javax.swing.JLabel pmam;
     // End of variables declaration//GEN-END:variables
 }
